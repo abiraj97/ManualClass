@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="address" value="Chennai"/>
+    <parameter name="cc_exp_month" value="April"/>
+    <parameter name="cc_num" value="4869509087687612"/>
+    <parameter name="last_name" value="Raj"/>
+    <parameter name="cc_cvv" value="543"/>
+    <parameter name="cc_exp_year" value="2017"/>
+    <parameter name="cc_type" value="VISA"/>
+    <parameter name="password" value="Qwerty@123"/>
+    <parameter name="hotels" value="Hotel Sunshine"/>
+    <parameter name="location" value="Sydney"/>
+    <parameter name="child_room" value="2"/>
+    <parameter name="adult_room" value="2"/>
+    <parameter name="first_name" value="Abi"/>
+    <parameter name="room_nos" value="5"/>
+    <parameter name="username" value="Abiraj97"/>
+    <parameter name="room_type" value="Double"/>
+    <classes>
+      <class name="org.test3.AdactinParameter">
+        <methods>
+          <include name="bookHotel" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.test3.AdactinParameter -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
