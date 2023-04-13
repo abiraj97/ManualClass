@@ -15,6 +15,7 @@ public class Sample {
          System.out.println("S3");
 	}
 	
+<<<<<<< HEAD
 	private void GIT1() {
 		 System.out.println("git1");
 	}
@@ -27,4 +28,17 @@ public class Sample {
 		 System.out.println("git3");
 	}
 	
+=======
+	private void Manual1() {
+		 System.out.println("M1");
+	}
+	
+	private void Manual2() {
+		 System.out.println("M2");
+	}
+	
+	private void Manual3() {
+		 System.out.println("M3");
+	}
+>>>>>>> ec5669c7c49998c57f6e762d79588b41518d0f56
 }
